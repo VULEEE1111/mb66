@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chơi Game Ngay</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #ffecd2, #fcb69f);
+        text-align: center;
+        color: #333;
+        line-height: 1.6;
+    }
+    .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: rgba(255 255 255 / 0.9);
+        border-radius: 15px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .game-image {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 28px;
+        margin: 20px 0 10px;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .play-button {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background: #ff5722;
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        animation: pulse 1.5s infinite;
+        margin-bottom: 30px;
+    }
+    @keyframes pulse {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.05);}
+        100% {transform: scale(1);}
+    }
+    .info-section {
+        text-align: left;
+        font-size: 14px;
+        color: #555;
+        padding: 15px 20px;
+        background: #fff8f0;
+        border-radius: 10px;
+        box-shadow: inset 0 0 10px #ffd7b0;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    .info-section h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #e65100;
+    }
+    .info-section ul {
+        padding-left: 20px;
+    }
+    /* CSS cho 2 ảnh bên trái và phải */
+    .side-image {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 220px; /* tăng kích thước */
+        max-height: 80vh;
+        object-fit: contain;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        z-index: 9999;
+        background: white;
+        padding: 5px;
+    }
+    .side-image.left {
+        left: 10px;
+    }
+    .side-image.right {
+        right: 10px;
+    }
+</style>
+</head>
+<body>
+    <img src="https://chungdenroi.website/wp-content/uploads/2021/04/Tranh-dong-luc-DL203.png" alt="Ảnh trái" class="side-image left" />
+    <img src="https://www.huongnghiepaau.com/wp-content/uploads/2019/08/foc-la-gi.jpg" alt="Ảnh phải" class="side-image right" />
+
+    <div class="container">
+        <img src="https://i.pinimg.com/736x/d0/0a/0f/d00a0f0b1b8885559d6c6ded02e5477b.jpg" alt="Game vui nhộn" class="game-image" />
+        <img src="https://i.pinimg.com/736x/fc/88/cc/fc88ccdd9416b27089d3cdd16ee2cd2d.jpg" alt="Game bắn cá" class="game-image" />
+
+        <h1>Thử Thách Game Vui!</h1>
+        <p>Chơi game ngay - Cơ hội nhận quà cực lớn!</p>
+        <a href="https://www.mb665.zone/register?f=8771&fbclid=IwY2xjawMEVLhleHRuA2FlbQIxMABicmlkETFUa1V6VlFtQkhOSXQ0QlJaAR66SjlIc92SHX-dlT3LttpRpElgLMiMkbFMUKzm9z6T4o0J7U16o1keBEnkXQ_aem_6ZXHKg6nTbLTaj5ByjaC1w" class="play-button">🎮 Chơi Ngay</a>
+
+        <div class="info-section">
+            <h2>Về Trò Chơi</h2>
+            <p>Trò chơi vui nhộn, phù hợp mọi lứa tuổi với giao diện thân thiện, dễ chơi và giải trí.</p>
+
+            <h2>Hướng Dẫn Chơi</h2>
+            <ul>
+                <li>Nhấn nút "Chơi Ngay" để bắt đầu trải nghiệm game.</li>
+                <li>Hoàn thành các thử thách trong game để tích điểm và nhận quà.</li>
+                <li>Thưởng thức các màn chơi đa dạng, hấp dẫn và liên tục được cập nhật.</li>
+            </ul>
+
+            <h2>Cam Kết Uy Tín</h2>
+            <p>Chúng tôi cam kết bảo vệ quyền riêng tư của bạn và đảm bảo mọi hoạt động đều minh bạch, an toàn, không sử dụng các hình thức cờ bạc hay lừa đảo.</p>
+
+            <h2>Chính Sách Bảo Mật</h2>
+            <p>Mọi thông tin cá nhân của bạn được mã hóa và bảo vệ nghiêm ngặt theo tiêu chuẩn quốc tế. Chúng tôi không chia sẻ dữ liệu với bên thứ ba nếu không có sự đồng ý của bạn.</p>
+        </div>
+    </div>
+</body>
+</html>
